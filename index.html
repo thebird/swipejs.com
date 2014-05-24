@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Swipe is the most accurate touch slider</title>
+<meta nam='description' content='Swipe is a lightweight mobile slider with 1:1 touch movement, resistant bounds, scroll prevention, and completely library agnostic.'>
+<meta name='keywords' content='Swipe, mobile, mobile web, slider, touch, 1:1, Brad Birdsall, lightweight, JS, javascript'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name='HandheldFriendly' content='True'>
+<meta name='MobileOptimized' content='320'>
+<meta name='format-detection' content='telephone=no'>
+<meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0'>
+<meta http-equiv='cleartype' content='on'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel='stylesheet' href='main.css'>
+<script src="http://use.typekit.com/fyg6bix.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<style>
+
+/* Swipe 2 required styles */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > figure {
+  float:left;
+  width:100%;
+  position: relative;
+}
+/* END required styles */
+
+</style>
+</head>
+<body class='page-swipe'>
+
+
+<header>
+
+  <a href='http://bradbirdsall.com'>Stories</a>
+  <a href='http://bradbirdsall.com' class='logo'>B</a>
+  <a href='http://twitter.com/thebird' target='_blank'>Twitter</a>
+
+  <div id='slider' class='swipe'>
+    <div class='swipe-wrap'>
+      <figure>
+        <div class='wrap'>
+          <div class='image' style='background:url(/assets/explorations1.jpg) center no-repeat;background-size: cover'>
+          </div>
+          <a href="http://twitter.com/colerise">@colerise</a>
+        </div>
+      </figure>
+      <figure>
+        <div class='wrap'>
+          <div class='image' style='background:url(/assets/explorations2.jpg) center no-repeat;background-size: cover'>
+          </div>
+          <a href="http://twitter.com/colerise">@colerise</a>
+        </div>
+      </figure>
+      <figure>
+        <div class='wrap'>
+          <div class='image' style='background:url(/assets/explorations3.jpg) center no-repeat;background-size: cover'>
+          </div>
+          <a href="http://twitter.com/colerise">@colerise</a>
+        </div>
+      </figure>
+      <figure>
+        <div class='wrap'>
+          <div class='image' style='background:url(/assets/fiftyandtwothirds3.jpg) center no-repeat;background-size: cover'>
+          </div>
+          <a href="http://twitter.com/colerise">@colerise</a>
+        </div>
+      </figure>
+    </div>
+  </div>
+
+  <nav>
+
+    <ul id='position'>
+      <li class='on'></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+  </nav>
+
+</header>
+
+
+<article>
+
+  <h1>Swipe is the most accurate touch slider.</h1>
+
+  <h2>
+    <span>Responsive</span>
+    <span>Resistant Bounds</span>
+    <span>Scroll Prevention</span>
+    <span>Library Agnostic</span>
+    <span>IE7+ Compatible</span>
+  </h2>
+
+  <br><br>
+
+  <h3>What's the word on the street?</h3>
+
+  <blockquote class="twitter-tweet" data-cards="hidden" data-conversation="none"><p>Another cool responsive slider with swipe support: <a href="http://t.co/Ozx1RHxU" title="http://swipejs.com">swipejs.com</a></p>&mdash; Nick La (@nickla) <a href="https://twitter.com/nickla/status/172374517291827200" data-datetime="2012-02-22T17:37:42+00:00">February 22, 2012</a></blockquote>
+
+  <blockquote class="twitter-tweet tw-align-center" data-cards="hidden" data-conversation="none"><p>Enjoying @<a href="https://twitter.com/BradBirdsall">BradBirdsall</a>'s <a href="http://t.co/Z672ogWW" title="http://swipejs.com">swipejs.com</a>, check it out!</p>&mdash; Benjamin De Cock (@bdc) <a href="https://twitter.com/bdc/status/145656618464452608" data-datetime="2011-12-11T00:10:18+00:00">December 11, 2011</a></blockquote>
+
+  <blockquote class="twitter-tweet tw-align-center" data-cards="hidden" data-conversation="none"><p>Swipe: a great lightweight sliding carousel for touch devices by @<a href="https://twitter.com/BradBirdsall">BradBirdsall</a> <a href="http://t.co/rpzsqe1k" title="https://github.com/bradbirdsall/Swipe">github.com/bradbirdsall/S…</a> demo: <a href="http://t.co/H5Gou2zb" title="http://swipejs.com/">swipejs.com</a></p>&mdash; Brad Frost (@brad_frost) <a href="https://twitter.com/brad_frost/status/118503384927047680" data-datetime="2011-09-27T01:53:03+00:00">September 27, 2011</a></blockquote>
+
+  <blockquote class="twitter-tweet tw-align-center" data-cards="hidden" data-conversation="none"><p>SwipeJS, a new library from @<a href="https://twitter.com/BradBirdsall">BradBirdsall</a> for touch-enabled mobile sliders <a href="http://t.co/TofRhloO" title="http://bit.ly/o5GwNl">bit.ly/o5GwNl</a> Try it at: <a href="http://t.co/I7jbiWWp" title="http://swipejs.com/">swipejs.com</a></p>&mdash; Maximiliano Firtman (@firt) <a href="https://twitter.com/firt/status/118379151148335104" data-datetime="2011-09-26T17:39:23+00:00">September 26, 2011</a></blockquote>
+
+  <br><br>
+
+  <p class='twitter'>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://swipejs.com" data-text="Swipe is the most accurate touch slider, check it out" data-count="horizontal" data-via="BradBirdsall">Tweet</a>
+    <a href="https://twitter.com/BradBirdsall" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @BradBirdsall</a>
+  </p>
+
+  <h3>Who's using Swipe?</h3>
+
+  <ul class='whos-using'>
+    <li style='background-image: url(assets/swipe-cnn.png)'>CNN</li>
+    <li style='background-image: url(assets/swipe-airbnb.png); width: 190px'>Airbnb</li>
+    <li style='background-image: url(assets/swipe-nhl.png); width: 130px'>NHL</li>
+    <li style='background-image: url(assets/swipe-thinkgeek.png); width:190px'>ThinkGeek</li>
+  </ul>
+
+  <a href='http://github.com/bradbirdsall/Swipe' class='button'>Check out Swipe on Github</a>
+
+</article>
+
+
+<footer>
+
+  <a href='https://spb.io/p/MMeT5T9ZPi' class='button'>Show your support, Donate</a>
+
+  <br><br>
+
+  <a href='http://bradbirdsall.com'>Brad Birdsall</a>
+
+</footer>
+
+
+<script src='swipe.js'></script>
+<script>
+
+var slider =
+  Swipe(document.getElementById('slider'), {
+    auto: 3000,
+    continuous: true,
+    callback: function(pos) {
+
+      var i = bullets.length;
+      while (i--) {
+        bullets[i].className = ' ';
+      }
+      bullets[pos].className = 'on';
+
+    }
+  });
+
+var bullets = document.getElementById('position').getElementsByTagName('li');
+
+</script>
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<script>
+var _gaq=[['_setAccount','UA-35099259-1'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
